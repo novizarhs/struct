@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+	struct data_tanggal //pendefinisian
+	{
+		int tahun;
+		int bulan;
+		int tanggal;
+	};
+	data_tanggal tanggal_lahir; //pendefinisian struktur
+	//pengaksesan anggota struktur
+	tanggal_lahir.tanggal = 1;
+	tanggal_lahir.bulan = 9;
+	tanggal_lahir.tahun = 1664;
+
+	cout << tanggal_lahir.tanggal <<'/'<<tanggal_lahir.bulan<<'/'<<tanggal_lahir.tahun<<endl;
+
+}
